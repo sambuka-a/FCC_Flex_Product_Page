@@ -1,0 +1,253 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+    .video__row {
+        display: flex;
+        flex-direction: column;
+}
+
+@media screen and (max-width: 360px) {
+    .header_row,
+    .benefits__row,
+    .video__row,
+    .vertical__row,
+    .footer__row {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        display: none;
+    }
+    .benefits__row {
+        padding: 20px 10px 0px 0px;
+    }
+
+    .video__row {
+        margin: 0px auto;
+    }
+
+    #video {
+        max-width: 100%;
+    }
+    
+    .vertical__col {
+        margin: 10px 0px;
+    }
+    .footer__row {
+        margin: 20px 0px;
+    }
+
+    .footer__text {
+        padding: 5px 0px;
+    }
+
+    #form {
+        margin: 0px 25px;
+        font-size: 16px;
+    }
+    #submit {
+        margin: 0px 100px;
+    }
+    
+}
+
+#header-img {
+    width: 150px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.content {
+    flex: 1 1 auto;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: slategrey;
+    padding: 5px 0;
+}
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    cursor: pointer;
+}
+.nav__link {
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.nav__link li {
+    padding: 5px 30px;
+}
+
+.nav__link a:hover {
+    color: rgb(186, 204, 136);
+       
+}
+
+.nav__link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(47, 53, 30);
+    font-weight: 400;
+    font-size: 18px;
+    transition: ease 0.3s;
+}
+
+.title {
+    color: #445161;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.benefits {
+    padding: 200px 0px 50px 0px;
+}
+.benefits__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.benefits__image {
+    flex: 0 0 80px;
+    color: salmon;
+}
+.benefits__body {
+    flex: 1 1 auto;
+    padding: 0px 0px 0px 10px;
+}
+.benefits__title {
+    margin: 0px 0px 20px 0px;
+}
+.benefits__text p {
+    font-size: 16px;
+    color: slategray;
+    line-height: 24px;
+    margin: 0px 0px 10px 0px;
+}
+.video {
+    padding: 0px;
+}
+.video__title {
+text-align: center;
+margin: 0px 0px 10px 0px;
+}
+.video__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.video__first {
+    margin: 10px;
+}
+.video__second {
+    margin: 10px;
+}
+
+.vertical {
+    padding: 30px 0;
+}
+.vertical__title {
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
+.vertical__row {
+    display: flex;
+    margin: 0px 22px;
+}
+.vertical__col {
+    flex: 0 1 33.33%;
+    padding: 0px 22px;
+}
+.vertical_item {
+    background-color: slategray;
+    color: rgb(233, 233, 233);
+    border: 2px solid slategray;
+    padding: 0px 0px 20px 0px;
+}
+.vertical__subitle {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 12px 0px;
+}
+.vertical__label {
+    text-align: center;
+    background-color: snow;
+    color: slategray;
+    padding: 16px 0px;
+    font-size: 36px;
+}
+.vertical__text {
+    padding: 20px;
+    color: snow;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.vertical__btn {
+    display: block;
+    margin: 0px 20px;
+    height: 40px;
+    background-color: white;
+    color: rgb(47, 53, 30);
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;   
+}
+
+.vertical__btn:hover {
+    background-color: rgb(186, 204, 136);
+    color: rgb(27, 27, 27);
+    transition: ease 0.3s;
+    text-decoration: none;   
+}
+
+.vertical__btn a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: slategrey;
+    margin-top: 30px;
+}
+.footer__row {
+    display: flex;
+    height: 65px;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__text {
+    font-size: 16px;
+}
+.form {
+    font-size: 18px;
+}
+.form input {
+    margin: 0px 20px;
+    background-color: white;
+    color: rgb(47, 53, 30);
+    font-size: 18px;
+}
+.form input:hover {
+    color: black;
+    background-color: rgb(186, 204, 136);
+}
